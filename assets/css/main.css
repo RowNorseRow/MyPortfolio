@@ -37,6 +37,27 @@ ol, ul {
 	list-style: none;
 }
 
+.col-4 {
+	text-align: center;
+	font-weight: bold;	
+}
+
+.col-4 > a .image.fit {
+	webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+}
+
+.col-4 > a .image.fit:hover {
+	webkit-filter: blur(0px); /* Chrome, Safari, Opera */
+	filter: blur(0px);
+	transform: scale(1.25);
+	margin: auto 0;
+	z-index: 11;
+	width: 100%;
+	transition: all .3s ease;
+	
+}
+
 blockquote, q {
 	quotes: none;
 }
